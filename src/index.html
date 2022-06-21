@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Digicode-task</title>
+</head>
+<body>
+<div class="shape-game">
+  <div class="game-title">
+    <h1>Digicode-task</h1>
+  </div>
+  <div class="informationOF">
+    <div class="amountShapes">
+      Amount of shapes in GameArea
+      <div class="mark1" id="counter">0</div>
+    </div>
+    <div class="areaOccupied">
+      Surface area (in px^2) occupied by the shapes
+      <div class="mark2" id="area">0px2</div>
+    </div>
+  </div>
+
+  <div id="root"></div>
+
+  <div class="panel panel-action">
+    <label>
+      Shapes per second
+      <input min = 0 value="1" step = 1  id="generated" type="number">
+    </label>
+    <label>
+      Gravity
+      <input min = 0 value= "7" step = 0.5 id="gravity" type="number">
+    </label>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

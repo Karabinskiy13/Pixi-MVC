@@ -1,0 +1,12 @@
+.informationOF{
+    display: flex;
+}
+
+.amountShapes{
+border:1px solid black;
+    justify-content: center;
+}
+.areaOccupied{
+    margin-left: 50px;
+    border: 1px solid black;
+}

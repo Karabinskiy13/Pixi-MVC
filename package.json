@@ -1,0 +1,30 @@
+{
+  "name": "pixi-mvc",
+  "version": "1.0.0",
+  "description": "task for digicode",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "grip": "^1.6.0",
+    "mo": "^1.7.3",
+    "p": "^0.2.0",
+    "pixi-layers": "^0.3.1",
+    "pixi.js": "^6.4.2",
+    "v": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/node": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.7.4"
+  },
+  "author": "Karabinskiy Ivan",
+  "license": "ISC"
+}
